@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 import { useAuth } from './useAuth';
-import LoginPage from './pages/LoginPage';
+import LoginPage from './LoginPage';
 import DashboardLayout from './components/layout/DashboardLayout';
 import TenantManagement from './pages/TenantManagement';
 import OrganizationManagement from './pages/OrganizationManagement';
